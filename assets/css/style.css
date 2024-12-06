@@ -14,14 +14,14 @@ li {
     list-style-type: none;
 }
 
-a {
+a, .hero > .left > p{
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
 }
 
 .logo {
-    color: #f9faf8 ;
+    color: #f9faf8;
     font-size: 24px;
     font-weight: 900;
 }
@@ -39,4 +39,50 @@ a {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 3rem;
+    padding: 5rem 12%;
+}
+
+.left {
+    flex-grow: 3;
+    flex-basis: 180px;
+}
+
+.right {
+    flex-grow: 4;
+    flex-basis: 200px;
+}
+
+img {
+    width: 100%;
+    min-width: 450px;
+    height: auto;
+    border: 2px solid #f9faf8;
+    border-radius: 4px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0;
+}
+
+button {
+    background-color: #3382f6;
+    color: #e5e7eb;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #3382f6;
+    border-radius: 6px;
+    padding: 6px 30px;
 }
