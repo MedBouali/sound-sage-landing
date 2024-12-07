@@ -61,7 +61,7 @@ a, .hero > .left > p{
     flex-basis: 200px;
 }
 
-img {
+.hero >.right > img {
     width: 100%;
     min-width: 450px;
     height: auto;
@@ -85,4 +85,49 @@ button {
     border: 1px solid #3382f6;
     border-radius: 6px;
     padding: 6px 30px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding: 3rem 12%;
+}
+
+.services > h1 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.box {
+    width: 200px;
+}
+
+.box-img {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+}
+
+.box > .box-img > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 12px;
+}
+
+.box > p {
+    color: dimgrey;
+    font-size: 18px;
+    text-align: center;
 }
