@@ -131,3 +131,21 @@ button {
     font-size: 18px;
     text-align: center;
 }
+
+.testimonials {
+    background-color: #e5e7eb;
+    padding: 4rem 12%;
+}
+
+.testimonial-text {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.customer-name {
+    color: #1f2937;
+    font-weight: 600;
+    text-align: right;
+}
